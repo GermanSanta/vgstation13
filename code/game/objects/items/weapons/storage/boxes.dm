@@ -1565,3 +1565,11 @@
 	new /obj/item/weapon/reagent_containers/food/snacks/dorfbiscuit(src)
 	new /obj/item/weapon/reagent_containers/hypospray/autoinjector(src)
 	new /obj/item/weapon/grenade/chem_grenade/metalfoam(src)
+
+/obj/item/weapon/storage/box/compressed_holy_jukebox
+	name = "compressed holy jukebox box"
+	desc = "contains a compressed holy jukebox"
+
+/obj/item/weapon/storage/box/compressed_holy_jukebox/New()
+	new /obj/machinery/media/jukebox/holyjuke
+	..()
