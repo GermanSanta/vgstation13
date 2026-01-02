@@ -2816,7 +2816,6 @@
 /obj/structure/rack,
 /obj/item/clothing/suit/armor/laserproof,
 /obj/structure/window/reinforced,
-/obj/item/clothing/head/helmet/tactical/laserproof,
 /turf/simulated/floor{
 	dir = 8;
 	icon_state = "dark-markings"
