@@ -832,3 +832,11 @@ var/image/unusual_overlay = image('icons/mob/head.dmi', "unusual_overlay", pixel
 	flags = FPRINT
 	icon_state = "trucker"
 	item_state = "trucker"
+
+/obj/item/clothing/head/lepre
+	name = "leprechaun hat"
+	icon_state = "lepre"
+	item_state = "lepre"
+	desc = "Kiss me I'm Irish!"
+	flags = FPRINT
+	species_fit = list(GREY_SHAPED,VOX_SHAPED,INSECT_SHAPED)

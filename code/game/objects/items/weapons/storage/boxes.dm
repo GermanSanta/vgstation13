@@ -574,7 +574,7 @@
 	icon_state = "frag_shells"
 	can_add_storageslots = TRUE
 	items_to_spawn = list(/obj/item/ammo_casing/shotgun/frag = 16)
-	
+
 /obj/item/weapon/storage/box/rocksaltshells
 	name = "12-gauge rocksalt shells"
 	icon_state = "rocksalt_shells"
@@ -1262,6 +1262,15 @@
 /obj/item/weapon/storage/box/smartbox/clothing_box/banana_set/New()
 	new /obj/item/clothing/suit/banana_suit(src)
 	new /obj/item/clothing/head/banana_hat(src)
+	..()
+
+/obj/item/weapon/storage/box/smartbox/clothing_box/lepre_set
+	name = "Leprechaun outfit box"
+
+/obj/item/weapon/storage/box/smartbox/clothing_box/lepre_set/New()
+	new /obj/item/clothing/head/lepre(src)
+	new /obj/item/clothing/under/lepre(src)
+	new /obj/item/clothing/shoes/lepre(src)
 	..()
 
 /obj/item/weapon/storage/box/biscuit

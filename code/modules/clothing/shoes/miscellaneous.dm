@@ -611,3 +611,9 @@
 	item_state = "scubafloppers"
 	footprint_type = /obj/effect/decal/cleanable/blood/tracks/footprints/clown
 	species_fit = list(VOX_SHAPED, GREY_SHAPED, UNDEAD_SHAPED, MUSHROOM_SHAPED, INSECT_SHAPED)
+
+/obj/item/clothing/shoes/lepre
+	name = "Leprechaun boots"
+	desc = "You'll never get me pot o' gold!"
+	icon_state = "lepre"
+	item_state = "lepre"

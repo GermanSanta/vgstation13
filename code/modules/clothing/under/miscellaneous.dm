@@ -1092,3 +1092,12 @@
 	dyeable_parts = list("drape","trim")
 	clothing_flags = COLORS_OVERLAY
 	color = COLOR_LINEN
+
+/obj/item/clothing/under/lepre
+	name = "Leprechaun outfit"
+	desc = "Shipping off to Boston!"
+	icon_state = "lepre"
+	item_state = "lepre"
+	_color = "lepre"
+	clothing_flags = ONESIZEFITSALL
+	species_fit = list(INSECT_SHAPED)
